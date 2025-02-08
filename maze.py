@@ -21,7 +21,7 @@ class Maze:
         self._num_cols = num_cols
         self._cell_size_x = cell_size_x
         self._cell_size_y = cell_size_y
-        self._win = win
+        self._win = None
 
         self._create_cells()
 
